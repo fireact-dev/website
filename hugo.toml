@@ -32,8 +32,8 @@ summaryLength = 70
     logo_small = "img/logo.svg"
     logo_width = "40px"
     logo_height = "40px"
-    about_us = "Fireact.dev is an open-source framework for building SaaS applications with Firebase, React, TypeScript, and Stripe integration."
-    copyright = "Copyright (c) 2024, Fireact.dev; all rights reserved."
+    about_us = "fireact.dev is an open-source framework for building SaaS applications with Firebase, React, TypeScript, and Stripe integration."
+    copyright = "Copyright (c) 2024, fireact.dev; all rights reserved."
     date_format = "January 2, 2006"
     defaultKeywords = ["firebase", "react", "typescript", "saas", "stripe", "tailwindcss"]
     defaultDescription = "Open-source framework for building SaaS applications with Firebase, React, TypeScript, and Stripe"
@@ -52,7 +52,7 @@ summaryLength = 70
         enable = true
         icon = "fab fa-github"
         title = "Ready to Build Your SaaS?"
-        subtitle = "Get started with Fireact.dev - the open-source framework that provides everything you need to launch your SaaS product."
+        subtitle = "Get started with fireact.dev - the open-source framework that provides everything you need to launch your SaaS product."
         link_url = "https://github.com/fireact-dev"
         link_text = "View on GitHub"
 
@@ -62,11 +62,11 @@ summaryLength = 70
     [params.recent_posts]
         enable = true
         title = "Latest Updates"
-        subtitle = "Stay up to date with the latest news, features, and improvements to the Fireact.dev framework."
+        subtitle = "Stay up to date with the latest news, features, and improvements to the fireact.dev framework."
 
     [params.topbar]
         enable = true
-        text = """<p class="hidden-sm hidden-xs">Build your SaaS faster with Fireact.dev</p>
+        text = """<p class="hidden-sm hidden-xs">Build your SaaS faster with fireact.dev</p>
         <p class="hidden-md hidden-lg">
         <a href="https://github.com/fireact-dev" data-animate-hover="pulse"><i class="fab fa-github"></i></a>
         <a href="mailto:contact@fireact.dev" data-animate-hover="pulse"><i class="fas fa-envelope"></i></a>

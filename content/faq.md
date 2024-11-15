@@ -1,16 +1,16 @@
 +++
 title = "FAQ"
-description = "Frequently asked questions about Fireact.dev"
+description = "Frequently asked questions about fireact.dev"
 keywords = ["FAQ", "questions", "fireact", "saas", "firebase", "react"]
 +++
 
-## 1. What is Fireact.dev?
+## 1. What is fireact.dev?
 
-Fireact.dev is an open-source framework designed to help developers build SaaS (Software as a Service) applications quickly and efficiently. It combines Firebase, React, TypeScript, TailwindCSS, and Stripe integration to provide a complete foundation for building subscription-based web applications.
+fireact.dev is an open-source framework designed to help developers build SaaS (Software as a Service) applications quickly and efficiently. It combines Firebase, React, TypeScript, TailwindCSS, and Stripe integration to provide a complete foundation for building subscription-based web applications.
 
-## 2. What features are included in Fireact.dev?
+## 2. What features are included in fireact.dev?
 
-Fireact.dev includes essential features for building SaaS applications:
+fireact.dev includes essential features for building SaaS applications:
 
 * Complete authentication system (sign-up, sign-in, password reset)
 * User profile management
@@ -23,7 +23,7 @@ Fireact.dev includes essential features for building SaaS applications:
 
 ## 3. Do I need to use all the features?
 
-No, Fireact.dev is built with modularity in mind. The framework consists of three main packages:
+No, fireact.dev is built with modularity in mind. The framework consists of three main packages:
 
 * @fireact.dev/core - Essential authentication and user management
 * @fireact.dev/saas - Subscription management and billing
@@ -31,9 +31,9 @@ No, Fireact.dev is built with modularity in mind. The framework consists of thre
 
 You can start with just the core package for basic authentication features and add other packages as needed.
 
-## 4. What are the prerequisites for using Fireact.dev?
+## 4. What are the prerequisites for using fireact.dev?
 
-To use Fireact.dev, you'll need:
+To use fireact.dev, you'll need:
 
 * Node.js and npm installed
 * A Firebase project (Blaze plan required for cloud functions)
@@ -43,16 +43,16 @@ To use Fireact.dev, you'll need:
 
 ## 5. Can I customize the UI and features?
 
-Yes, Fireact.dev is highly customizable:
+Yes, fireact.dev is highly customizable:
 
 * Built with TailwindCSS for easy styling customization
 * Component-based architecture allows easy modifications
 * Clear separation of concerns makes it easy to add or modify features
 * All source code is available and can be customized to your needs
 
-## 6. Is Fireact.dev production-ready?
+## 6. Is fireact.dev production-ready?
 
-Yes, Fireact.dev is designed for production use with:
+Yes, fireact.dev is designed for production use with:
 
 * TypeScript for type safety and better code quality
 * Comprehensive error handling
@@ -63,7 +63,7 @@ Yes, Fireact.dev is designed for production use with:
 
 ## 7. How do I handle local development?
 
-Fireact.dev includes support for Firebase emulators, allowing you to:
+fireact.dev includes support for Firebase emulators, allowing you to:
 
 * Develop locally without affecting production data
 * Test authentication flows
@@ -71,9 +71,9 @@ Fireact.dev includes support for Firebase emulators, allowing you to:
 * Test Stripe webhooks locally
 * Debug and develop offline
 
-## 8. What kind of applications can I build with Fireact.dev?
+## 8. What kind of applications can I build with fireact.dev?
 
-Fireact.dev is suitable for various SaaS applications, including:
+fireact.dev is suitable for various SaaS applications, including:
 
 * Subscription-based services
 * Team collaboration tools
@@ -82,7 +82,7 @@ Fireact.dev is suitable for various SaaS applications, including:
 * Online platforms
 * Any application requiring user authentication and subscription management
 
-## 9. How can I contribute to Fireact.dev?
+## 9. How can I contribute to fireact.dev?
 
 As an open-source project, we welcome contributions:
 

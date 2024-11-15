@@ -1,13 +1,13 @@
 +++
-title = "Fireact.dev - Build SaaS Applications Fast"
+title = "fireact.dev - Build SaaS Applications Fast"
 description = "Open-source framework for building SaaS applications with Firebase, React, TypeScript, and Stripe"
 +++
 
-# Build Your SaaS Faster with Fireact.dev
+# Build Your SaaS Faster with fireact.dev
 
-Fireact.dev is a comprehensive open-source framework that helps developers build production-ready SaaS applications quickly and efficiently. Built with Firebase, React, TypeScript, TailwindCSS, and Stripe integration.
+fireact.dev is a comprehensive open-source framework that helps developers build production-ready SaaS applications quickly and efficiently. Built with Firebase, React, TypeScript, TailwindCSS, and Stripe integration.
 
-## Why Choose Fireact.dev?
+## Why Choose fireact.dev?
 
 * **Complete SaaS Foundation**: Authentication, subscription management, team collaboration, and billing - everything you need to launch your SaaS.
 * **Modern Tech Stack**: Built with React, TypeScript, and TailwindCSS for a robust and maintainable codebase.
@@ -39,6 +39,6 @@ Fireact.dev is a comprehensive open-source framework that helps developers build
 
 ## Get Started
 
-Fireact.dev is modular - start with basic authentication using the core package and add SaaS features when you need them. Our documentation guides you through every step of building your application.
+fireact.dev is modular - start with basic authentication using the core package and add SaaS features when you need them. Our documentation guides you through every step of building your application.
 
 [View Documentation](#) | [GitHub Repository](#) | [Live Demo](#)

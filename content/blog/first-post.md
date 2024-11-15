@@ -1,19 +1,19 @@
 +++
-title = "Introducing Fireact.dev: Open-Source SaaS Framework"
+title = "Introducing fireact.dev: Open-Source SaaS Framework"
 date = 2024-01-09T12:00:00-00:00
 tags = ["announcement", "framework", "saas", "firebase", "react"]
 categories = ["announcements"]
 banner = "img/banners/banner-1.jpg"
-authors = ["Fireact Team"]
+authors = ["fireact.devTeam"]
 +++
 
-## Introducing Fireact.dev
+## Introducing fireact.dev
 
-We're excited to announce Fireact.dev, an open-source framework designed to help developers build production-ready SaaS applications quickly and efficiently. Built with Firebase, React, TypeScript, TailwindCSS, and Stripe integration, Fireact.dev provides everything you need to launch your SaaS product.
+We're excited to announce fireact.dev, an open-source framework designed to help developers build production-ready SaaS applications quickly and efficiently. Built with Firebase, React, TypeScript, TailwindCSS, and Stripe integration, fireact.dev provides everything you need to launch your SaaS product.
 
-### Why We Built Fireact.dev
+### Why We Built fireact.dev
 
-Building a SaaS application from scratch involves implementing many common features - authentication, subscription management, team collaboration, billing, and more. We created Fireact.dev to provide a solid foundation for these features, allowing developers to focus on their unique business logic instead of reinventing the wheel.
+Building a SaaS application from scratch involves implementing many common features - authentication, subscription management, team collaboration, billing, and more. We created fireact.dev to provide a solid foundation for these features, allowing developers to focus on their unique business logic instead of reinventing the wheel.
 
 ### Key Features
 
@@ -39,7 +39,7 @@ Building a SaaS application from scratch involves implementing many common featu
 
 ### Modular Architecture
 
-Fireact.dev is built with modularity in mind. The framework consists of three main packages:
+fireact.dev is built with modularity in mind. The framework consists of three main packages:
 
 1. **@fireact.dev/core**: Essential authentication and user management features
 2. **@fireact.dev/saas**: Subscription management and billing capabilities
@@ -49,7 +49,7 @@ This modular approach allows you to start with basic authentication features and
 
 ### Getting Started
 
-Getting started with Fireact.dev is straightforward. Our documentation provides step-by-step guides for:
+Getting started with fireact.dev is straightforward. Our documentation provides step-by-step guides for:
 - Setting up your development environment
 - Configuring Firebase and Stripe
 - Implementing authentication
@@ -60,7 +60,7 @@ Getting started with Fireact.dev is straightforward. Our documentation provides 
 
 ### What's Next
 
-We're committed to continuously improving Fireact.dev. Our roadmap includes:
+We're committed to continuously improving fireact.dev. Our roadmap includes:
 - Additional authentication providers
 - Enhanced team collaboration features
 - More billing integration options
@@ -69,7 +69,7 @@ We're committed to continuously improving Fireact.dev. Our roadmap includes:
 
 ### Join Our Community
 
-Fireact.dev is open source and we welcome contributions from the community. Whether you're fixing bugs, adding features, or improving documentation, your help makes Fireact.dev better for everyone.
+fireact.dev is open source and we welcome contributions from the community. Whether you're fixing bugs, adding features, or improving documentation, your help makes fireact.dev better for everyone.
 
 Visit our [GitHub repository](#) to:
 - View the source code
@@ -80,6 +80,6 @@ Visit our [GitHub repository](#) to:
 
 ### Get Started Today
 
-Ready to build your SaaS application? Check out our [documentation](#) to get started with Fireact.dev.
+Ready to build your SaaS application? Check out our [documentation](#) to get started with fireact.dev.
 
-Thank you for your interest in Fireact.dev. We're excited to see what you'll build!
+Thank you for your interest in fireact.dev. We're excited to see what you'll build!
