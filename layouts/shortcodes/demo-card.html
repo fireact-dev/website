@@ -1,0 +1,31 @@
+{{ $title := .Get "title" }}
+{{ $description := .Get "description" }}
+{{ $image := .Get "image" }}
+{{ $demoUrl := .Get "demo-url" }}
+
+<hr style="margin: 40px 0; border-color: #eee;">
+<div class="row" style="margin-bottom: 40px;">
+    <div class="col-md-7">
+        <h2>{{ $title }}</h2>
+        <p>{{ $description | markdownify }}</p>
+        
+        <div class="features">
+            {{ .Inner | markdownify }}
+        </div>
+
+        <div style="margin-top: 20px;">
+            <a href="{{ $demoUrl }}" class="btn btn-template-main" style="font-size: 14px; padding: 8px 24px;">
+                Launch Demo
+            </a>
+        </div>
+    </div>
+    
+    <div class="col-md-5">
+        <div class="text-center">
+            <a href="{{ $demoUrl }}">
+                <img src="{{ $image }}" alt="{{ $title }} Screenshot" style="width: 100%; border: 1px solid #ddd; border-radius: 8px; box-shadow: 0 2px 4px rgba(0,0,0,0.1);">
+            </a>
+        </div>
+    </div>
+</div>
+

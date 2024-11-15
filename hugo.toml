@@ -21,10 +21,16 @@ summaryLength = 70
         weight     = 1
 
     [[menu.main]]
+        name       = "Demos"
+        identifier = "menu.demos"
+        url        = "/demos/"
+        weight     = 2
+        
+    [[menu.main]]
         name       = "Blog"
         identifier = "menu.blog"
         url        = "/blog/"
-        weight     = 2
+        weight     = 3
 
 [params]
     style = "default"
