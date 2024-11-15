@@ -1,19 +1,13 @@
-# Generated files by hugo
+# Hugo default output directory
 /public/
+
+# Hugo generated files
 /resources/_gen/
 /assets/jsconfig.json
 hugo_stats.json
 
-# Executable may be added to repository
-hugo.exe
-hugo.darwin
-hugo.linux
-
-# Temporary lock file while building
-/.hugo_build.lock
-
-# Node modules if using any Node.js tools
-node_modules/
+# Temporary files
+.hugo_build.lock
 
 # OS generated files
 .DS_Store
@@ -23,12 +17,3 @@ node_modules/
 .Trashes
 ehthumbs.db
 Thumbs.db
-
-# IDE specific files
-.idea
-.vscode
-*.swp
-*.swo
-
-# Hugo workspace file
-hugo.work

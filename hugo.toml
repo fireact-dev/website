@@ -1,4 +1,4 @@
-baseURL = "https://www.fireact.dev"
+baseURL = "https://fireact-dev.github.io/"
 title = "Fireact.dev"
 theme = "hugo-universal-theme"
 languageCode = "en-us"
@@ -30,7 +30,7 @@ summaryLength = 70
     style = "default"
     logo = "img/logo.svg"
     logo_small = "img/logo.svg"
-    logo_width = "40px"  # Slightly smaller to accommodate text
+    logo_width = "40px"
     logo_height = "40px"
     about_us = "Fireact.dev is an open-source framework for building SaaS applications with Firebase, React, TypeScript, and Stripe integration."
     copyright = "Copyright (c) 2024, Fireact.dev; all rights reserved."
@@ -71,15 +71,6 @@ summaryLength = 70
         <a href="https://github.com/fireact-dev" data-animate-hover="pulse"><i class="fab fa-github"></i></a>
         <a href="mailto:contact@fireact.dev" data-animate-hover="pulse"><i class="fas fa-envelope"></i></a>
         </p>
-        """
-
-    [params.navbar]
-        # Custom HTML for the navigation bar logo area
-        brand_html = """
-        <div style="display: flex; align-items: center;">
-            <img src="/img/logo.svg" alt="Fireact" style="width: 40px; height: 40px;">
-            <span style="font-size: 24px; font-weight: bold; margin-left: 10px;">Fireact</span>
-        </div>
         """
 
     [params.footer]
