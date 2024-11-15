@@ -14,3 +14,279 @@
 .box-simple {
     min-height: 230px;
 }
+
+/* Fire theme colors */
+:root {
+    --primary-color: #EC6F59;
+    --secondary-color: #FAD15C;
+}
+
+/* Navbar styling */
+.navbar-affixed-top .navbar.yamm.navbar-default {
+    background-color: #fff !important;
+    border-color: var(--primary-color) !important;
+}
+
+.navbar-affixed-top .navbar.yamm.navbar-default .navbar-nav > li > a {
+    color: #555 !important;
+    transition: all 0.3s ease-in-out !important;
+    background-color: transparent !important;
+}
+
+.navbar-affixed-top .navbar.yamm.navbar-default .navbar-nav > li > a:hover,
+.navbar-affixed-top .navbar.yamm.navbar-default .navbar-nav > li > a:focus {
+    color: #fff !important;
+    background-color: var(--primary-color) !important;
+}
+
+.navbar-affixed-top .navbar.yamm.navbar-default .navbar-nav > .active > a,
+.navbar-affixed-top .navbar.yamm.navbar-default .navbar-nav > .active > a:hover,
+.navbar-affixed-top .navbar.yamm.navbar-default .navbar-nav > .active > a:focus {
+    color: #fff !important;
+    background-color: var(--primary-color) !important;
+}
+
+.navbar-affixed-top .navbar.yamm.navbar-default .navbar-nav > .active > a:hover {
+    background-color: var(--secondary-color) !important;
+}
+
+/* Dropdown menu */
+.navbar-affixed-top .navbar.yamm.navbar-default .navbar-nav > .open > a,
+.navbar-affixed-top .navbar.yamm.navbar-default .navbar-nav > .open > a:hover,
+.navbar-affixed-top .navbar.yamm.navbar-default .navbar-nav > .open > a:focus {
+    background-color: var(--primary-color) !important;
+    color: #fff !important;
+}
+
+.navbar-affixed-top .navbar.yamm.navbar-default .dropdown-menu > li > a:hover,
+.navbar-affixed-top .navbar.yamm.navbar-default .dropdown-menu > li > a:focus {
+    background-color: var(--primary-color) !important;
+    color: #fff !important;
+}
+
+/* Override any remaining theme styles */
+.navbar-affixed-top .navbar.yamm.navbar-default .navbar-nav > li.active > a,
+.navbar-affixed-top .navbar.yamm.navbar-default .navbar-nav > li.open > a,
+.navbar-affixed-top .navbar.yamm.navbar-default .navbar-nav > li:hover > a {
+    background-color: var(--primary-color) !important;
+    color: #fff !important;
+}
+
+.navbar-affixed-top .navbar.yamm.navbar-default .navbar-nav > li.active > a:hover,
+.navbar-affixed-top .navbar.yamm.navbar-default .navbar-nav > li.open > a:hover,
+.navbar-affixed-top .navbar.yamm.navbar-default .navbar-nav > li:hover > a:hover {
+    background-color: var(--secondary-color) !important;
+    color: #fff !important;
+}
+
+/* Buttons */
+.btn-template-main {
+    color: var(--primary-color) !important;
+    border-color: var(--primary-color) !important;
+}
+
+.btn-template-main:hover,
+.btn-template-main:focus {
+    background-color: var(--primary-color) !important;
+    border-color: var(--primary-color) !important;
+    color: #fff !important;
+}
+
+/* Home carousel */
+#heading-breadcrumbs {
+    background: var(--primary-color) !important;
+}
+
+.home-carousel {
+    background: linear-gradient(135deg, var(--primary-color), var(--secondary-color)) !important;
+}
+
+.home-carousel .dark-mask {
+    background: rgba(0, 0, 0, 0.3) !important;
+}
+
+.home-carousel .owl-carousel {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.home-carousel h1,
+.home-carousel h2,
+.home-carousel h3,
+.home-carousel p,
+.home-carousel ul {
+    color: #ffffff !important;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5) !important;
+}
+
+/* Links */
+a {
+    color: var(--primary-color) !important;
+}
+
+a:hover,
+a:focus {
+    color: var(--secondary-color) !important;
+}
+
+/* Feature sections */
+.box-simple {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.box-simple .icon {
+    color: var(--primary-color) !important;
+    border: 1px solid var(--primary-color) !important;
+    width: 100px !important;
+    height: 100px !important;
+    line-height: 100px !important;
+    font-size: 40px !important;
+    border-radius: 50% !important;
+    transition: all 0.3s ease-in-out !important;
+}
+
+.box-simple:hover .icon {
+    color: #fff !important;
+    background: var(--primary-color) !important;
+    border-color: var(--primary-color) !important;
+    transform: scale(1.1) !important;
+}
+
+.box-simple h3 {
+    color: var(--primary-color) !important;
+    font-weight: 500 !important;
+    font-size: 24px !important;
+    margin-top: 20px !important;
+    margin-bottom: 15px !important;
+    transition: all 0.3s ease-in-out !important;
+}
+
+.box-simple:hover h3 {
+    color: var(--secondary-color) !important;
+}
+
+.box-simple p {
+    color: #555 !important;
+}
+
+/* Features */
+#features {
+    background-color: rgba(236, 111, 89, 0.05) !important;
+    padding: 60px 0 !important;
+}
+
+/* Feature headings */
+.heading {
+    margin-bottom: 40px;
+}
+
+.heading h2 {
+    color: var(--primary-color) !important;
+    font-weight: 700 !important;
+    text-align: center !important;
+}
+
+.heading h3 {
+    color: var(--primary-color) !important;
+    font-size: 24px !important;
+    font-weight: 500 !important;
+    text-align: center !important;
+}
+
+/* Testimonials */
+.testimonials {
+    background: linear-gradient(135deg, var(--primary-color), var(--secondary-color)) !important;
+    padding: 60px 0 !important;
+}
+
+.testimonials .item .testimonial {
+    background: #fff !important;
+    border: 1px solid var(--primary-color) !important;
+    padding: 30px !important;
+    border-radius: 8px !important;
+}
+
+/* Footer */
+#footer {
+    background-color: #333 !important;
+    padding: 50px 0 !important;
+}
+
+#footer h4 {
+    color: var(--secondary-color) !important;
+    font-weight: 500 !important;
+    margin-bottom: 20px !important;
+}
+
+#footer a {
+    color: var(--secondary-color) !important;
+    transition: all 0.3s ease-in-out !important;
+}
+
+#footer a:hover {
+    color: var(--primary-color) !important;
+    text-decoration: none !important;
+}
+
+/* Bar styling */
+.bar.background-pentagon {
+    background: linear-gradient(135deg, var(--primary-color), var(--secondary-color)) !important;
+    color: #fff !important;
+    padding: 40px 0 !important;
+}
+
+.bar.background-image {
+    background: linear-gradient(135deg, rgba(236, 111, 89, 0.9), rgba(250, 209, 92, 0.9)), url('../img/fixed-background-2.jpg') center top no-repeat !important;
+    background-size: cover !important;
+    padding: 60px 0 !important;
+}
+
+/* Navigation dots */
+.owl-theme .owl-controls .owl-page span {
+    background: var(--secondary-color) !important;
+    width: 12px !important;
+    height: 12px !important;
+}
+
+.owl-theme .owl-controls .owl-page.active span {
+    background: var(--primary-color) !important;
+    transform: scale(1.2) !important;
+}
+
+/* Top bar */
+.top-bar {
+    background: var(--primary-color) !important;
+    padding: 5px 0 !important;
+}
+
+.top-bar a {
+    color: #fff !important;
+}
+
+.top-bar a:hover {
+    color: var(--secondary-color) !important;
+    text-decoration: none !important;
+}
+
+/* Blog */
+.post h2 a {
+    color: var(--primary-color) !important;
+}
+
+.post h2 a:hover {
+    color: var(--secondary-color) !important;
+}
+
+/* Breadcrumbs */
+.breadcrumb {
+    background: transparent !important;
+}
+
+.breadcrumb a {
+    color: var(--primary-color) !important;
+}
+
+.breadcrumb a:hover {
+    color: var(--secondary-color) !important;
+}
