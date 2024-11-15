@@ -4,11 +4,7 @@ description = "Explore Fireact.dev through our interactive demos"
 keywords = ["demo","firebase","saas","authentication","stripe"]
 +++
 
-## About the Demos
-
-Both demos are built with React and showcase real-world implementations of fireact.dev packages. They demonstrate how easily you can integrate Firebase authentication, subscription management, and multi-language support into your applications.
-
-&nbsp;
+Both demos are built with React and showcase real-world implementations of fireact.dev packages. They demonstrate the functionalities you can integrate Firebase authentication, subscription management, and multi-language support into your applications.
 
 {{< demo-card
     title="Core Package Demo"

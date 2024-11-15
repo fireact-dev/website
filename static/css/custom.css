@@ -97,6 +97,10 @@
     background: var(--primary-color) !important;
 }
 
+#heading-breadcrumbs h1 {
+    color: #fff;
+}
+
 .home-carousel {
     background: linear-gradient(135deg, var(--primary-color), var(--secondary-color)) !important;
 }
