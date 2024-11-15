@@ -35,8 +35,14 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
         with:
-          submodules: recursive
+          submodules: true  # Changed to true to fetch submodules
           fetch-depth: 0
+
+      - name: Initialize and update theme submodule
+        run: |
+          cd website
+          git submodule init
+          git submodule update --recursive --remote
 
       - name: Setup Pages
         id: pages
