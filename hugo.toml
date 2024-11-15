@@ -1,5 +1,5 @@
-baseURL = "https://fireact-dev.github.io/"
-title = "Fireact.dev"
+baseURL = "https://fireact.dev/"
+title = "fireact.dev"
 theme = "hugo-universal-theme"
 languageCode = "en-us"
 defaultContentLanguage = "en"
