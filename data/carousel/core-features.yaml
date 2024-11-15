@@ -1,11 +1,8 @@
 weight: 1
-title: "Complete SaaS Foundation"
+title: "<h1 style='text-align: left;'>Open Source SaaS Starter</h1>"
 description: >
-  <ul class="list-style-none">
-    <li>Built-in authentication system</li>
-    <li>User profile management</li>
-    <li>Role-based access control</li>
-    <li>Firebase integration</li>
-  </ul>
+  <div style="text-align: left;">
+    <h3>The open-source framework that provides everything you need to launch your SaaS product. Fully integrated with Firebase and Stripe.</h3>
+  </div>
 image: "img/carousel/template-mac.png"
 href: "#"

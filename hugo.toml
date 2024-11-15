@@ -65,13 +65,8 @@ summaryLength = 70
         subtitle = "Stay up to date with the latest news, features, and improvements to the fireact.dev framework."
 
     [params.topbar]
-        enable = true
-        text = """<p class="hidden-sm hidden-xs">Build your SaaS faster with fireact.dev</p>
-        <p class="hidden-md hidden-lg">
-        <a href="https://github.com/fireact-dev" data-animate-hover="pulse"><i class="fab fa-github"></i></a>
-        <a href="mailto:contact@fireact.dev" data-animate-hover="pulse"><i class="fas fa-envelope"></i></a>
-        </p>
-        """
+        enable = false
+        text = ""
 
     [params.footer]
         enable = true
