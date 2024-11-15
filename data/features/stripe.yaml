@@ -1,0 +1,5 @@
+weight: 4
+name: "Stripe Integration"
+icon: "fas fa-money-bill-wave"
+url: ""
+description: "Built-in Stripe integration for handling payments and subscriptions. Includes webhook handling, payment method management, and billing portal integration."

@@ -1,0 +1,10 @@
+weight: 1
+title: "Complete SaaS Foundation"
+description: >
+  <ul class="list-style-none">
+    <li>Built-in authentication system</li>
+    <li>User profile management</li>
+    <li>Role-based access control</li>
+    <li>Firebase integration</li>
+  </ul>
+image: "img/carousel/template-easy-code.png"

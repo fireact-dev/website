@@ -1,0 +1,5 @@
+weight: 5
+name: "Developer Experience"
+icon: "fas fa-code"
+url: ""
+description: "Modern development stack with TypeScript, React, and TailwindCSS. Modular architecture allows starting with basic features and adding more as needed."

@@ -1,0 +1,10 @@
+weight: 2
+title: "Subscription Management"
+description: >
+  <ul class="list-style-none">
+    <li>Stripe payment integration</li>
+    <li>Multiple subscription plans</li>
+    <li>Billing portal & invoicing</li>
+    <li>Payment method management</li>
+  </ul>
+image: "img/carousel/template-mac.png"

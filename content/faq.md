@@ -1,43 +1,107 @@
 +++
 title = "FAQ"
-description = "Frequently asked questions"
-keywords = ["FAQ","How do I","questions","what if"]
+description = "Frequently asked questions about Fireact.dev"
+keywords = ["FAQ", "questions", "fireact", "saas", "firebase", "react"]
 +++
 
-Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo.
+## 1. What is Fireact.dev?
 
-## 1. WHAT TO DO IF I HAVE STILL NOT RECEIVED THE ORDER?
+Fireact.dev is an open-source framework designed to help developers build SaaS (Software as a Service) applications quickly and efficiently. It combines Firebase, React, TypeScript, TailwindCSS, and Stripe integration to provide a complete foundation for building subscription-based web applications.
 
-Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo.
+## 2. What features are included in Fireact.dev?
 
-* Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
-* Aliquam tincidunt mauris eu risus.
-* Vestibulum auctor dapibus neque.
+Fireact.dev includes essential features for building SaaS applications:
 
-## 2. WHAT ARE THE POSTAL RATES?
+* Complete authentication system (sign-up, sign-in, password reset)
+* User profile management
+* Subscription management with Stripe integration
+* Team collaboration with role-based permissions
+* Billing portal and invoice management
+* Internationalization support
+* Responsive layouts with TailwindCSS
+* Firebase integration (Auth, Firestore, Cloud Functions)
 
-Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+## 3. Do I need to use all the features?
 
-## 3. DO YOU SEND OVERSEAS?
+No, Fireact.dev is built with modularity in mind. The framework consists of three main packages:
 
-Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+* @fireact.dev/core - Essential authentication and user management
+* @fireact.dev/saas - Subscription management and billing
+* @fireact.dev/saas-cloud-functions - Backend processing and Stripe integration
 
-## 4. WHY ARE YOU MORE EXPENSIVE THAN OTHERS?
+You can start with just the core package for basic authentication features and add other packages as needed.
 
-Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo.
+## 4. What are the prerequisites for using Fireact.dev?
 
-* Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
-* Aliquam tincidunt mauris eu risus.
-* Vestibulum auctor dapibus neque.
+To use Fireact.dev, you'll need:
 
-## 5. ANOTHER IMPORTANT QUESTION
+* Node.js and npm installed
+* A Firebase project (Blaze plan required for cloud functions)
+* A Stripe account for payment processing
+* Basic knowledge of React and TypeScript
+* Firebase CLI installed for deployment
 
-Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo.
+## 5. Can I customize the UI and features?
 
-* Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
-* Aliquam tincidunt mauris eu risus.
-* Vestibulum auctor dapibus neque.
+Yes, Fireact.dev is highly customizable:
+
+* Built with TailwindCSS for easy styling customization
+* Component-based architecture allows easy modifications
+* Clear separation of concerns makes it easy to add or modify features
+* All source code is available and can be customized to your needs
+
+## 6. Is Fireact.dev production-ready?
+
+Yes, Fireact.dev is designed for production use with:
+
+* TypeScript for type safety and better code quality
+* Comprehensive error handling
+* Security best practices
+* Scalable Firebase backend
+* Production-tested Stripe integration
+* Support for Firebase emulators in development
+
+## 7. How do I handle local development?
+
+Fireact.dev includes support for Firebase emulators, allowing you to:
+
+* Develop locally without affecting production data
+* Test authentication flows
+* Simulate cloud functions
+* Test Stripe webhooks locally
+* Debug and develop offline
+
+## 8. What kind of applications can I build with Fireact.dev?
+
+Fireact.dev is suitable for various SaaS applications, including:
+
+* Subscription-based services
+* Team collaboration tools
+* Business applications
+* Content management systems
+* Online platforms
+* Any application requiring user authentication and subscription management
+
+## 9. How can I contribute to Fireact.dev?
+
+As an open-source project, we welcome contributions:
+
+* Submit issues on GitHub
+* Contribute code through pull requests
+* Improve documentation
+* Share your experience and help others
+* Suggest new features
+
+## 10. Where can I get help if I'm stuck?
+
+There are several ways to get help:
+
+* Check our comprehensive documentation
+* Visit our GitHub repository
+* Join our community discussions
+* Report issues on GitHub
+* Contact our support team
 
 ---
 
-> In case you haven't found the answer for your question please feel free to contact us, our customer support will be happy to help you.
+> If you haven't found the answer to your question, please feel free to contact us or visit our GitHub repository. Our community and team are here to help!

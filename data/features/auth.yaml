@@ -1,0 +1,5 @@
+weight: 1
+name: "Authentication & User Management"
+icon: "fas fa-user-shield"
+url: ""
+description: "Complete authentication system with sign-up, sign-in, password reset, and profile management. Built-in user roles and permissions for secure access control."

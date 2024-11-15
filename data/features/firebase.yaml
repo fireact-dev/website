@@ -1,0 +1,5 @@
+weight: 3
+name: "Firebase Integration"
+icon: "fas fa-database"
+url: ""
+description: "Seamless Firebase integration for authentication, Firestore database, and cloud functions. Includes local development support with Firebase emulators."

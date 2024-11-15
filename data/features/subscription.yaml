@@ -1,0 +1,5 @@
+weight: 2
+name: "Subscription Management"
+icon: "fas fa-credit-card"
+url: ""
+description: "Complete subscription management with Stripe integration. Handle multiple subscription plans, billing portals, payment methods, and automated invoice processing."

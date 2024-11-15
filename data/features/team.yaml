@@ -1,0 +1,5 @@
+weight: 6
+name: "Team Collaboration"
+icon: "fas fa-users"
+url: ""
+description: "Built-in team management with user invitations, role-based permissions, and access controls. Perfect for SaaS applications that need team workspaces."
