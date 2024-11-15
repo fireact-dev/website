@@ -1,5 +1,5 @@
 baseURL = "http://localhost:1313/"
-title = "My New Hugo Site"
+title = "Fireact.dev"
 theme = "hugo-universal-theme"
 languageCode = "en-us"
 defaultContentLanguage = "en"
@@ -28,57 +28,58 @@ summaryLength = 70
 
 [params]
     style = "default"
-    logo = "img/logo.png"
-    logo_small = "img/logo-small.png"
-    about_us = "We are a creative studio founded in New York. We create meaningful digital experiences."
-    copyright = "Copyright (c) 2024, Your Company; all rights reserved."
+    logo = "img/logo.svg"
+    logo_small = "img/logo.svg"
+    logo_width = "40px"  # Slightly smaller to accommodate text
+    logo_height = "40px"
+    about_us = "Fireact.dev is an open-source framework for building SaaS applications with Firebase, React, TypeScript, and Stripe integration."
+    copyright = "Copyright (c) 2024, Fireact.dev; all rights reserved."
     date_format = "January 2, 2006"
-    defaultKeywords = ["devows", "hugo", "go"]
-    defaultDescription = "Site template made by Devcows using Hugo"
+    defaultKeywords = ["firebase", "react", "typescript", "saas", "stripe", "tailwindcss"]
+    defaultDescription = "Open-source framework for building SaaS applications with Firebase, React, TypeScript, and Stripe"
 
-    # Since this template is static, the contact form uses www.formspree.io as a
-    # proxy. The form makes a POST request to their servers to send the actual
-    # email. Visitors can send up to a 1000 emails each month for free.
-    #
-    # What you need to do for the setup?
-    #
-    # - set your email address under 'email' below
-    # - upload the generated site to your server
-    # - send a dummy email yourself to confirm your account
-    # - click the confirm link in the email from www.formspree.io
-    # - you're done. Happy mailing!
-    email = "your@email.com"
+    # Contact form configuration
+    email = "contact@fireact.dev"
 
     [params.carousel]
         enable = true
+        background = "dark"
 
     [params.features]
         enable = true
 
     [params.see_more]
         enable = true
-        icon = "far fa-file-alt"
-        title = "Do you want to see more?"
-        subtitle = "We have prepared for you more than 40 different HTML pages, including 5 variations of homepage."
-        link_url = "#"
-        link_text = "Check other homepages"
+        icon = "fab fa-github"
+        title = "Ready to Build Your SaaS?"
+        subtitle = "Get started with Fireact.dev - the open-source framework that provides everything you need to launch your SaaS product."
+        link_url = "https://github.com/fireact-dev"
+        link_text = "View on GitHub"
 
     [params.clients]
-        enable = true
-        title = "Our Clients"
-        subtitle = ""
+        enable = false
 
     [params.recent_posts]
         enable = true
-        title = "From our blog"
-        subtitle = "Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo."
+        title = "Latest Updates"
+        subtitle = "Stay up to date with the latest news, features, and improvements to the Fireact.dev framework."
 
     [params.topbar]
         enable = true
-        text = """<p class="hidden-sm hidden-xs">Contact us on +420 777 555 333 or hello@universal.com.</p>
-        <p class="hidden-md hidden-lg"><a href="tel:+420 777 555 333" data-animate-hover="pulse"><i class="fas fa-phone"></i></a>
-        <a href="mailto:hello@universal.com" data-animate-hover="pulse"><i class="fas fa-envelope"></i></a>
+        text = """<p class="hidden-sm hidden-xs">Build your SaaS faster with Fireact.dev</p>
+        <p class="hidden-md hidden-lg">
+        <a href="https://github.com/fireact-dev" data-animate-hover="pulse"><i class="fab fa-github"></i></a>
+        <a href="mailto:contact@fireact.dev" data-animate-hover="pulse"><i class="fas fa-envelope"></i></a>
         </p>
+        """
+
+    [params.navbar]
+        # Custom HTML for the navigation bar logo area
+        brand_html = """
+        <div style="display: flex; align-items: center;">
+            <img src="/img/logo.svg" alt="Fireact" style="width: 40px; height: 40px;">
+            <span style="font-size: 24px; font-weight: bold; margin-left: 10px;">Fireact</span>
+        </div>
         """
 
     [params.footer]
