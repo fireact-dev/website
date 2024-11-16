@@ -117,7 +117,10 @@ mainSections = ["blog"]
         enable = false
 
     [params.recent_posts]
-        enable = false
+        enable = true
+        title = "Latest Updates"
+        subtitle = "Stay up to date with the latest news, features, and improvements to the fireact.dev framework."
+        hide_summary = true
 
     [params.topbar]
         enable = false
@@ -125,3 +128,4 @@ mainSections = ["blog"]
 
     [params.footer]
         enable = true
+        recent_posts.enable = false

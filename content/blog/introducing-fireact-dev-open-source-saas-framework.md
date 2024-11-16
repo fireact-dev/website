@@ -73,7 +73,7 @@ We're committed to continuously improving fireact.dev. Our roadmap includes:
 
 fireact.dev is open source and we welcome contributions from the community. Whether you're fixing bugs, adding features, or improving documentation, your help makes fireact.dev better for everyone.
 
-Visit our [GitHub repository](#) to:
+Visit our [GitHub repository](https://github.com/fireact-dev/main) to:
 - View the source code
 - Report issues
 - Submit pull requests
@@ -82,6 +82,6 @@ Visit our [GitHub repository](#) to:
 
 ### Get Started Today
 
-Ready to build your SaaS application? Check out our [documentation](#) to get started with fireact.dev.
+Ready to build your SaaS application? Check out our [documentation](/docs/) to get started with fireact.dev.
 
 Thank you for your interest in fireact.dev. We're excited to see what you'll build!
