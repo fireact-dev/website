@@ -38,6 +38,12 @@ summaryLength = 70
         url        = "https://github.com/fireact-dev/main"
         weight     = 4
 
+    [[menu.main]]
+        name       = "Raodmap"
+        identifier = "menu.raodmap"
+        url        = "https://github.com/orgs/fireact-dev/projects/1"
+        weight     = 5
+
 [params]
     style = "default"
     logo = "img/logo.svg"
