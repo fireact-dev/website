@@ -21,34 +21,40 @@ summaryLength = 70
         weight     = 1
 
     [[menu.main]]
+        name       = "Documentation"
+        identifier = "menu.docs"
+        url        = "/docs/"
+        weight     = 2
+
+    [[menu.main]]
         name       = "Demos"
         identifier = "menu.demos"
         url        = "/demos/"
-        weight     = 2
+        weight     = 3
 
     [[menu.main]]
         name       = "FAQ"
         identifier = "menu.faq"
         url        = "/faq/"
-        weight     = 3
+        weight     = 4
         
     [[menu.main]]
         name       = "Blog"
         identifier = "menu.blog"
         url        = "/blog/"
-        weight     = 4
+        weight     = 5
 
     [[menu.main]]
         name       = "GitHub"
         identifier = "menu.github"
         url        = "https://github.com/fireact-dev/main"
-        weight     = 5
+        weight     = 6
 
     [[menu.main]]
         name       = "Raodmap"
         identifier = "menu.raodmap"
         url        = "https://github.com/orgs/fireact-dev/projects/1"
-        weight     = 6
+        weight     = 7
 
 [params]
     style = "default"
