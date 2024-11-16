@@ -17,42 +17,71 @@ summaryLength = 70
 mainSections = ["blog"]
 
 [menu]
-
     [[menu.main]]
         name       = "Documentation"
         identifier = "menu.docs"
         url        = "/docs/"
-        weight     = 2
+        weight     = 1
 
     [[menu.main]]
         name       = "Demos"
         identifier = "menu.demos"
         url        = "/demos/"
-        weight     = 3
+        weight     = 2
 
     [[menu.main]]
         name       = "FAQ"
         identifier = "menu.faq"
         url        = "/faq/"
-        weight     = 4
+        weight     = 3
         
     [[menu.main]]
         name       = "Blog"
         identifier = "menu.blog"
         url        = "/blog/"
-        weight     = 5
+        weight     = 4
         
     [[menu.main]]
         name       = "Raodmap"
         identifier = "menu.raodmap"
         url        = "https://github.com/orgs/fireact-dev/projects/1"
-        weight     = 6
+        weight     = 5
 
     [[menu.main]]
         name       = "GitHub"
         identifier = "menu.github"
         url        = "https://github.com/fireact-dev/main"
-        weight     = 7
+        weight     = 6
+
+[[menu.footer]]
+    name       = "Documentation"
+    url        = "/docs/"
+    weight     = 1
+
+[[menu.footer]]
+    name       = "Demos"
+    url        = "/demos/"
+    weight     = 2
+
+[[menu.footer]]
+    name       = "FAQ"
+    url        = "/faq/"
+    weight     = 3
+    
+[[menu.footer]]
+    name       = "Blog"
+    url        = "/blog/"
+    weight     = 4
+    
+[[menu.footer]]
+    name       = "Raodmap"
+    url        = "https://github.com/orgs/fireact-dev/projects/1"
+    weight     = 5
+
+[[menu.footer]]
+    name       = "GitHub"
+    url        = "https://github.com/fireact-dev/main"
+    weight     = 6
 
 [params]
     style = "default"
@@ -88,10 +117,7 @@ mainSections = ["blog"]
         enable = false
 
     [params.recent_posts]
-        enable = true
-        title = "Latest Updates"
-        subtitle = "Stay up to date with the latest news, features, and improvements to the fireact.dev framework."
-        hide_summary = true
+        enable = false
 
     [params.topbar]
         enable = false

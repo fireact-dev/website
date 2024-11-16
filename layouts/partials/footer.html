@@ -1,0 +1,44 @@
+<footer id="footer" style="margin-top: 60px;">
+    <div class="container">
+        {{ if isset .Site.Params "about_us" }}
+        <div class="col-md-6">
+            <h4>{{ i18n "aboutUs" }}</h4>
+            {{ .Site.Params.about_us | safeHTML }}
+            <hr class="hidden-md hidden-lg hidden-sm">
+        </div>
+        {{ end }}
+
+        <div class="col-md-6">
+            <h4>Navigation</h4>
+            <div class="row">
+                <div class="col-md-6">
+                    <ul class="list-unstyled">
+                        {{ $menuItems := .Site.Menus.footer }}
+                        {{ $half := div (len $menuItems) 2 }}
+                        {{ range first $half $menuItems }}
+                        <li><a href="{{ .URL }}">{{ .Name }}</a></li>
+                        {{ end }}
+                    </ul>
+                </div>
+                <div class="col-md-6">
+                    <ul class="list-unstyled">
+                        {{ range last (sub (len $menuItems) $half) $menuItems }}
+                        <li><a href="{{ .URL }}">{{ .Name }}</a></li>
+                        {{ end }}
+                    </ul>
+                </div>
+            </div>
+            <hr class="hidden-md hidden-lg">
+        </div>
+    </div>
+</footer>
+
+<div id="copyright">
+    <div class="container">
+        <div class="col-md-12 text-center">
+            {{ if isset .Site.Params "copyright" }}
+            <p>{{ .Site.Params.copyright | safeHTML }}</p>
+            {{ end }}
+        </div>
+    </div>
+</div>

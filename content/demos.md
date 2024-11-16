@@ -34,8 +34,3 @@ Both demos are built with React and showcase real-world implementations of firea
 * Expiry Date: Any future date
 * CVC: Any 3 digits
 {{< /demo-card >}}
-
-
-&nbsp;
-
-&nbsp;
