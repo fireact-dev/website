@@ -13,12 +13,10 @@ googleAnalytics = ""
 # number of words of summarized post content (default 70)
 summaryLength = 70
 
+# Configure which content types are listed on the homepage and blog list pages
+mainSections = ["blog"]
+
 [menu]
-    [[menu.main]]
-        name       = "Home"
-        identifier = "menu.home"
-        url        = "/"
-        weight     = 1
 
     [[menu.main]]
         name       = "Documentation"
@@ -43,17 +41,17 @@ summaryLength = 70
         identifier = "menu.blog"
         url        = "/blog/"
         weight     = 5
+        
+    [[menu.main]]
+        name       = "Raodmap"
+        identifier = "menu.raodmap"
+        url        = "https://github.com/orgs/fireact-dev/projects/1"
+        weight     = 6
 
     [[menu.main]]
         name       = "GitHub"
         identifier = "menu.github"
         url        = "https://github.com/fireact-dev/main"
-        weight     = 6
-
-    [[menu.main]]
-        name       = "Raodmap"
-        identifier = "menu.raodmap"
-        url        = "https://github.com/orgs/fireact-dev/projects/1"
         weight     = 7
 
 [params]
@@ -93,6 +91,7 @@ summaryLength = 70
         enable = true
         title = "Latest Updates"
         subtitle = "Stay up to date with the latest news, features, and improvements to the fireact.dev framework."
+        hide_summary = true
 
     [params.topbar]
         enable = false

@@ -1,11 +1,13 @@
 +++
 title = "Introducing fireact.dev: Open-Source SaaS Framework"
-date = 2024-01-09T12:00:00-00:00
+date = 2024-11-16T08:38:00-00:00
 tags = ["announcement", "framework", "saas", "firebase", "react"]
 categories = ["announcements"]
-banner = "img/banners/banner-1.jpg"
-authors = ["fireact.devTeam"]
+banner = "img/demos/saas-demo.png"
+authors = ["Chaoming Li"]
 +++
+
+{{< figure src="/img/demos/saas-demo.png" alt="fireact.dev SaaS Demo" >}}
 
 ## Introducing fireact.dev
 
