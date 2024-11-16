@@ -8,7 +8,7 @@ defaultContentLanguage = "en"
 disqusShortname = ""
 
 # Enable Google Analytics by entering your tracking code
-googleAnalytics = ""
+googleAnalytics = "G-E6S4MWBHE1"
 
 # number of words of summarized post content (default 70)
 summaryLength = 70
