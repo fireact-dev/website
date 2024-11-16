@@ -63,10 +63,10 @@ summaryLength = 70
     [params.see_more]
         enable = true
         icon = "fab fa-github"
-        title = "Ready to Build Your SaaS?"
-        subtitle = "Get started with fireact.dev - the open-source framework that provides everything you need to launch your SaaS product."
-        link_url = "https://github.com/fireact-dev"
-        link_text = "View on GitHub"
+        title = "Join Our Open Source Community"
+        subtitle = "Contribute to fireact.dev and help shape the future of SaaS development. Access our comprehensive documentation, engage with fellow developers, and build amazing products together."
+        link_url = "https://github.com/fireact-dev/main"
+        link_text = "Explore on GitHub"
 
     [params.clients]
         enable = false

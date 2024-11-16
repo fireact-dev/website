@@ -260,8 +260,20 @@ a:focus {
     padding: 40px 0 !important;
 }
 
+/* GitHub section background override */
+.bar.background-image-fixed-2 {
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('../img/background.jpg') center center no-repeat !important;
+    background-size: cover !important;
+    background-attachment: fixed !important;
+    padding: 100px 0 !important;
+}
+
+.bar.background-image-fixed-2 .dark-mask {
+    opacity: 0 !important;
+}
+
 .bar.background-image {
-    background: linear-gradient(135deg, rgba(236, 111, 89, 0.9), rgba(250, 209, 92, 0.9)), url('../img/fixed-background-2.jpg') center top no-repeat !important;
+    background: linear-gradient(135deg, rgba(236, 111, 89, 0.9), rgba(250, 209, 92, 0.9)), url('../img/background.jpg') center top no-repeat !important;
     background-size: cover !important;
     padding: 60px 0 !important;
 }
