@@ -47,6 +47,11 @@ p {
     border-color: var(--primary-color) !important;
 }
 
+/* Override navbar text transform to match hugo.toml case */
+.navbar ul.nav > li > a {
+    text-transform: none !important;
+}
+
 .navbar-affixed-top .navbar.yamm.navbar-default .navbar-nav > li > a {
     color: #555 !important;
     transition: all 0.3s ease-in-out !important;
