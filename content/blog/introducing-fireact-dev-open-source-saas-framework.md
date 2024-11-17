@@ -82,6 +82,6 @@ Visit our [GitHub repository](https://github.com/fireact-dev/main) to:
 
 ### Get Started Today
 
-Ready to build your SaaS application? Check out our [documentation](/docs/) to get started with fireact.dev.
+Ready to build your SaaS application? Check out our [documentation](https://docs.fireact.dev) to get started with fireact.dev.
 
 Thank you for your interest in fireact.dev. We're excited to see what you'll build!

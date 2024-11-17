@@ -13,16 +13,14 @@
             <div class="row">
                 <div class="col-md-6">
                     <ul class="list-unstyled">
-                        {{ $menuItems := .Site.Menus.footer }}
-                        {{ $half := div (len $menuItems) 2 }}
-                        {{ range first $half $menuItems }}
+                        {{ range first 3 .Site.Menus.footer }}
                         <li><a href="{{ .URL }}">{{ .Name }}</a></li>
                         {{ end }}
                     </ul>
                 </div>
                 <div class="col-md-6">
                     <ul class="list-unstyled">
-                        {{ range last (sub (len $menuItems) $half) $menuItems }}
+                        {{ range last 2 .Site.Menus.footer }}
                         <li><a href="{{ .URL }}">{{ .Name }}</a></li>
                         {{ end }}
                     </ul>
