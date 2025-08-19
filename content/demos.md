@@ -10,7 +10,7 @@ Both demos are built with React and showcase real-world implementations of firea
     title="Demo"
     description="This demo demonstrates the full features of `@fireact.dev/app` and `@fireact.dev/functions` packages:"
     image="/img/demos/saas-demo.png"
-    demo-url="https://fireact-saas-demo.web.app/"
+    demo-url="https://fireact-demo-9bad5.firebaseapp.com"
 >}}
 * **Stripe Integration** for complete subscription management
 * **User Invitation System** for team member management
