@@ -2,7 +2,7 @@ weight: 1
 title: "<h1 style='text-align: left;'>Start Building Your SaaS in Minutes</h1>"
 description: >
   <div style="text-align: left;">
-    <h3>Fireact.dev is the open-source framework for building production-ready SaaS applications fast with Firebase and Stripe.</h3>
+    <h3>Fireact.dev is the open-source framework for building production-ready SaaS applications fast with Firebase and Stripe, setup with one line of command.</h3>
   </div>
 image: "img/carousel/fireact-hero.png"
 button:
