@@ -36,8 +36,8 @@ mainSections = ["blog"]
         weight     = 3
         
     [[menu.main]]
-        name       = "Raodmap"
-        identifier = "menu.raodmap"
+        name       = "Roadmap"
+        identifier = "menu.roadmap"
         url        = "https://github.com/orgs/fireact-dev/projects/1"
         weight     = 4
 
@@ -63,7 +63,7 @@ mainSections = ["blog"]
     weight     = 3
     
 [[menu.footer]]
-    name       = "Raodmap"
+    name       = "Roadmap"
     url        = "https://github.com/orgs/fireact-dev/projects/1"
     weight     = 4
 
