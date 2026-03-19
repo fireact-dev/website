@@ -112,8 +112,8 @@ mainSections = ["blog"]
         hide_summary = true
 
     [params.topbar]
-        enable = false
-        text = ""
+        enable = true
+        text = """🚀 <strong>New:</strong> Fireact now ships with AI-powered SaaS development skills for Claude Code — build production-ready features in seconds. <a href='/blog/build-saas-apps-with-ai-powered-development-skills/' style='color: #fbbf24 !important; text-decoration: underline !important; font-weight: bold;'>Read the announcement →</a>"""
 
     [params.footer]
         enable = true
