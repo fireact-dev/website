@@ -156,7 +156,7 @@ theme = "hugo-universal-theme"
   email = "contact@fireact.dev"
 
   # Social media
-  github = "https://github.com/fireact-dev"
+  github = "https://github.com/fireact-dev/main"
 
   # Features
   [params.features]
@@ -434,7 +434,7 @@ Clear browser cache or use incognito mode.
 - **Hugo Documentation**: https://gohugo.io/documentation/
 - **Universal Theme**: https://github.com/devcows/hugo-universal-theme
 - **Hugo Forum**: https://discourse.gohugo.io/
-- **Main Project**: https://github.com/fireact-dev/fireact.dev
+- **Main Project**: https://github.com/fireact-dev/main
 
 ## Contributing
 
